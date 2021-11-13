@@ -8,20 +8,13 @@
 
 ## Local Modules used
 
-### Notes-app
 
-*  [x]  `yarg`
 
-*  [x]  `validator`
 
-*  [x]  `chak`
-
-### weather-app
-
-*  [x]  `request`
 
 ### web-server
 
+*  [x]  `request`
 *  [x]  `express`
 
 *  [x]  `hbs`
@@ -30,7 +23,7 @@
 
 *  [x]  `nodemon`
 
-## API
+## API in use
 
  1. [mapbox](https://www.mapbox.com/)
  2. [weatherstack](https://weatherstack.com/)
