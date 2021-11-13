@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="/img/weather.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <div class="main_body"> {{>header}}
+        <div class="center">
+
+            <img class="E404" src="/img/404.png" alt="Page Not found">
+        </div>
+        <div class="center">
+
+            <h1 class="cancelMargin E404-h1">{{errorMessage}} </h1>
+        </div>
+
+    </div>
+    {{>footer}}
+
+
+</body>
+
+</html>
